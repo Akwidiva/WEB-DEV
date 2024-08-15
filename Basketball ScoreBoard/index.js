@@ -1,27 +1,28 @@
 let homecount = document.getElementById("home")
 let guestcount = document.getElementById("guest")
-let count = 0
+let countguess = 0
+let counthome = 0
 function addone() {
-    count += 1
-    homecount.innerText = count
+    counthome += 1
+    homecount.innerText = counthome 
 }
 function addtwo() {
-    count += 2
-    homecount.innerText = count
+    counthome += 2
+    homecount.innerText = counthome 
 }
 function addthree() {
-    count += 3
-    homecount.innerText = count
+    counthome += 3
+    homecount.innerText = counthome 
 }
 function addo() {
-    count += 1
-    guestcount.innerText = count
+    countguess += 1
+    guestcount.innerText =  countguess 
 }
 function addt() {
-    count += 2
-    guestcount.innerText = count
+    countguess += 2
+    guestcount.innerText =  countguess 
 }
 function addth() {
-    count += 3
-    guestcount.innerText = count
+    countguess += 3
+    guestcount.innerText =  countguess 
 }
