@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Josefin Sans;
+    
+}
+.mainbody {
+    width: 390px;
+    height: 800px;
+    margin: 100px 500px;
+    border: 1px solid #1B1924;
+    background: #1B1924;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    padding: 50px 10px;
+    font-weight: 700;
+}
+.font-el {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+#Textarea-el {
+    width: 317px;
+    height: 118px;
+    border: 1px solid #444059;
+    border-radius: 8px;
+    background: #444059;
+    padding: 10px;
+}
+#input-els {
+   display:inline;
+}
+.Input-el {
+    width: 152.85px;
+    height: 40px;
+    border: 1px solid #444059;
+    border-radius: 8px;
+    background-color: #444059;
+    text-align: center;
+}
+#button-el {
+    width: 317px;
+    height: 61px;
+    border: 1px solid #28A9F1;
+    border-radius: 8px;
+    background: #28A9F1;
+    color: #04131C;
+    font-size: 22px;
+    font-weight: bold;
+}
+#endorsement-list {
+    list-style-type: none;
+    padding:0;
+}
+li{ 
+    width: 317px;
+    height: fit-content;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    margin:10px;
+
+}
